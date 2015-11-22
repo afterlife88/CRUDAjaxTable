@@ -6,4 +6,4 @@ Basic operation with database, working on simple jQuery ajax, with beautiful pop
 
 <b>Add some element</b>
 ![image](http://s13.postimg.org/qqwrwig0n/Add_Item_Img.jpg)
-[reveal] : <https://github.com/zurb/reveal>
+[reveal]: <https://github.com/zurb/reveal>
