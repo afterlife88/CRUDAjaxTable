@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<br/>
+<div id="deletePopUp" class="reveal-modal">
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="editPopUp" class="reveal-modal">
+    <a class="close-reveal-modal">&#215;</a>
+
+</div>
+<div id="addPopUp" class="reveal-modal">
+    <a class="close-reveal-modal">&#215;</a>
+
+</div>
+<a href="#"  data-reveal-id="addPopUp" data-animation="fadeAndPop" data-animationspeed="300" data-closeonbackgroundclick="true" data-dismissmodalclass="close-reveal-modal" class="btn btn-default" id="addElement">Add element</a>
+<hr />
+<div class="table-responsive">
+    <table id="table" class="table table-bordered table-hover">
+        <tr>
+            <th>#</th>
+            <th>Author of Operation</th>
+            <th>Cost</th>
+            <th>Type of operation</th>
+            <th>Description</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+</div>
